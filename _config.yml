@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: The Magnus Archives Transcripts Archive Archive A (Extremely Unofficial)
-email: snarp@snarp.work
-author: snarp
+email: novalinium@noblejury.com
+author: novalinium
 # description: > # this means to ignore newlines until "baseurl:"
 description: TMA transcripts in slightly-more-readable format. Mostly converted versions of the official transcripts; the rest have links to the source/transcriber.
 language: en-us
@@ -24,9 +24,9 @@ language: en-us
 # # (http://yourusername.github.io/repository-name)
 # # and NOT your User repository (http://yourusername.github.io)
 # # then add in the baseurl here, like this: "/repository-name"
-# baseurl: "/magnus_archives_transcripts"
+baseurl: "/magnus"
 
-permalink: /:categories/:title:output_ext
+permalink: /magnus/:categories/:title:output_ext
 
 collections:
   news: 
